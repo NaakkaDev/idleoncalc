@@ -1,0 +1,480 @@
+{
+    "statue": {
+        "all": [
+            {
+                "name": "feasty-statue",
+                "localized_name": {
+                    "en": "Feasty Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "health-statue",
+                "localized_name": {
+                    "en": "Health Statue"
+                },
+                "bonus": {
+                    "hp": 3
+                }
+            },
+            {
+                "name": "kachow-statue",
+                "localized_name": {
+                    "en": "Kachow Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "lumberbob-statue",
+                "localized_name": {
+                    "en": "Lumberbob Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "mining-statue",
+                "localized_name": {
+                    "en": "Mining Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "oceanman-statue",
+                "localized_name": {
+                    "en": "Oceanman Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "ol-reliable-statue",
+                "localized_name": {
+                    "en": "Ol Reliable Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "speed-statue",
+                "localized_name": {
+                    "en": "Speed Statue"
+                },
+                "bonus": {}
+            },
+            {
+                "name": "strength-statue",
+                "localized_name": {
+                    "en": "Strength Statue"
+                },
+                "bonus": {
+                    "damage": 3
+                }
+            },
+            {
+                "name": "thicc-skin-statue",
+                "localized_name": {
+                    "en": "Thicc Skin Statue"
+                },
+                "bonus": {
+                    "defence": 1
+                }
+            }
+        ]
+    },
+    "stamp": {
+        "combat": [
+            {
+                "name": "sword-stamp",
+                "localized_name": {
+                    "en": "Sword Stamp"
+                },
+                "number": "1",
+                "type": "combat",
+                "bonus": {
+                    "damage": 1
+                }
+            },
+            {
+                "name": "heart-stamp",
+                "localized_name": {
+                    "en": "Heart Stamp"
+                },
+                "number": "2",
+                "type": "combat",
+                "bonus": {
+                    "hp": 1
+                }
+            },
+            {
+                "name": "mana-stamp",
+                "localized_name": {
+                    "en": "Mana Stamp"
+                },
+                "number": "3",
+                "type": "combat",
+                "bonus": {
+                    "mp": 1
+                }
+            },
+            {
+                "name": "tomahawk-stamp",
+                "localized_name": {
+                    "en": "Tomahawk Stamp"
+                },
+                "number": "4",
+                "type": "combat",
+                "bonus": {
+                    "total_damage_p": -1
+                },
+                "nomath": true
+            },
+            {
+                "name": "target-stamp",
+                "localized_name": {
+                    "en": "Target Stamp"
+                },
+                "number": "5",
+                "type": "combat",
+                "bonus": {
+                    "accuracy": 1
+                }
+            },
+            {
+                "name": "shield-stamp",
+                "localized_name": {
+                    "en": "Shield Stamp"
+                },
+                "number": "6",
+                "type": "combat",
+                "bonus": {
+                    "defence": 1
+                }
+            },
+            {
+                "name": "longsword-stamp",
+                "localized_name": {
+                    "en": "Longsword Stamp"
+                },
+                "number": "7",
+                "type": "combat",
+                "bonus": {
+                    "damage": 2
+                }
+            },
+            {
+                "name": "kapow-stamp",
+                "localized_name": {
+                    "en": "Kapow Stamp"
+                },
+                "number": "8",
+                "type": "combat",
+                "bonus": {}
+            },
+            {
+                "name": "fist-stamp",
+                "localized_name": {
+                    "en": "Fist Stamp"
+                },
+                "number": "9",
+                "type": "combat",
+                "bonus": {
+                    "str": 1
+                }
+            },
+            {
+                "name": "battleaxe-stamp",
+                "localized_name": {
+                    "en": "Battleaxe Stamp"
+                },
+                "number": "10",
+                "type": "combat",
+                "bonus": {
+                    "total_damage_p": -1
+                },
+                "nomath": true
+            },
+            {
+                "name": "haste-stamp",
+                "localized_name": {
+                    "en": "Haste Stamp"
+                },
+                "number": "11",
+                "type": "combat",
+                "bonus": {
+                    "agi": 1
+                }
+            },
+            {
+                "name": "vitality-stamp",
+                "localized_name": {
+                    "en": "Vitality Stamp"
+                },
+                "number": "12",
+                "type": "combat",
+                "bonus": {
+                    "hp": 2
+                }
+            },
+            {
+                "name": "book-stamp",
+                "localized_name": {
+                    "en": "Book Stamp"
+                },
+                "number": "13",
+                "type": "combat",
+                "bonus": {
+                    "wis": 1
+                }
+            },
+            {
+                "name": "manamoar-stamp",
+                "localized_name": {
+                    "en": "Manamoar Stamp"
+                },
+                "number": "14",
+                "type": "combat",
+                "bonus": {
+                    "mp": 2
+                }
+            },
+            {
+                "name": "clover-stamp",
+                "localized_name": {
+                    "en": "Clover Stamp"
+                },
+                "number": "15",
+                "type": "combat",
+                "bonus": {
+                    "luk": 1
+                }
+            },
+            {
+                "name": "scimitar-stamp",
+                "localized_name": {
+                    "en": "Scimitar Stamp"
+                },
+                "number": "16",
+                "type": "combat",
+                "bonus": {
+                    "damage": 3
+                }
+            },
+            {
+                "name": "bullseye-stamp",
+                "localized_name": {
+                    "en": "Bullseye Stamp"
+                },
+                "number": "17",
+                "type": "combat",
+                "bonus": {
+                    "accuracy": 2
+                }
+            },
+            {
+                "name": "feather-stamp",
+                "localized_name": {
+                    "en": "Feather Stamp"
+                },
+                "number": "18",
+                "type": "combat",
+                "bonus": {}
+            },
+            {
+                "name": "polearm-stamp",
+                "localized_name": {
+                    "en": "Polearm Stamp"
+                },
+                "number": "19",
+                "type": "combat",
+                "bonus": {
+                    "total_damage_p": -1
+                },
+                "nomath": true
+            },
+            {
+                "name": "violence-stamp",
+                "localized_name": {
+                    "en": "Violence Stamp"
+                },
+                "number": "20",
+                "type": "combat",
+                "bonus": {}
+            },
+            {
+                "name": "buckler-stamp",
+                "localized_name": {
+                    "en": "Buckler Stamp"
+                },
+                "number": "21",
+                "type": "combat",
+                "bonus": {
+                    "defence": 30
+                }
+            },
+            {
+                "name": "sukka-foo",
+                "localized_name": {
+                    "en": "Sukka Foo"
+                },
+                "number": "23",
+                "type": "combat",
+                "bonus": {}
+            },
+            {
+                "name": "steve-sword",
+                "localized_name": {
+                    "en": "Steve Sword"
+                },
+                "number": "26",
+                "type": "combat",
+                "bonus": {}
+            }
+        ],
+        "skill": [
+            {
+                "name": "pickaxe-stamp",
+                "localized_name": {
+                    "en": "Pickaxe Stamp"
+                },
+                "number": "1",
+                "type": "skills",
+                "bonus": "+1 Base Mining Efficiency"
+            },
+            {
+                "name": "hatchet-stamp",
+                "localized_name": {
+                    "en": "Hatchet Stamp"
+                },
+                "number": "2",
+                "type": "skills",
+                "bonus": "+1 Base Choppin' Efficiency"
+            },
+            {
+                "name": "anvil-zoomer stamp",
+                "localized_name": {
+                    "en": "Anvil Zoomer Stamp"
+                },
+                "number": "3",
+                "type": "skills",
+                "bonus": "+1% Anvil Production Speed"
+            },
+            {
+                "name": "lil-mining baggy stamp",
+                "localized_name": {
+                    "en": "Lil' Mining Baggy Stamp"
+                },
+                "number": "4",
+                "type": "skills",
+                "bonus": "+1% Carrying Capacity for Choppin' Items"
+            },
+            {
+                "name": "twin-ores stamp",
+                "localized_name": {
+                    "en": "Twin Ores Stamp"
+                },
+                "number": "5",
+                "type": "skills",
+                "bonus": "% Multi Ore Chance"
+            },
+            {
+                "name": "choppin-bag stamp",
+                "localized_name": {
+                    "en": "Choppin' Bag Stamp"
+                },
+                "number": "6",
+                "type": "skills",
+                "bonus": "+1% Carrying Capacity for Choppin' Items"
+            },
+            {
+                "name": "duplogs-stamp",
+                "localized_name": {
+                    "en": "Duplogs Stamp"
+                },
+                "number": "7",
+                "type": "skills",
+                "bonus": "% Multi Log Chance"
+            },
+            {
+                "name": "matty-bag stamp",
+                "localized_name": {
+                    "en": "Matty Bag Stamp"
+                },
+                "number": "8",
+                "type": "skills",
+                "bonus": "+1% Carrying Capacity for Material Items"
+            },
+            {
+                "name": "smart-dirt stamp",
+                "localized_name": {
+                    "en": "Smart Dirt Stamp"
+                },
+                "number": "9",
+                "type": "skills",
+                "bonus": "+1% Mining Experience"
+            },
+            {
+                "name": "cool-diggy tool stamp",
+                "localized_name": {
+                    "en": "Cool Diggy Tool Stamp"
+                },
+                "number": "10",
+                "type": "skills",
+                "bonus": "+2 Mining Efficiency"
+            },
+            {
+                "name": "high-iq lumber stamp",
+                "localized_name": {
+                    "en": "High IQ Lumber Stamp"
+                },
+                "number": "11",
+                "type": "skills",
+                "bonus": "+1% Choppin Experience"
+            },
+            {
+                "name": "swag-swingy tool stamp",
+                "localized_name": {
+                    "en": "Swag Swingy Tool Stamp"
+                },
+                "number": "12",
+                "type": "skills",
+                "bonus": "+2 Choppin Efficiency"
+            },
+            {
+                "name": "smartas-smithing stamp",
+                "localized_name": {
+                    "en": "Smartas Smithing Stamp"
+                },
+                "number": "13",
+                "type": "skills",
+                "bonus": "+1% Smithing Experience"
+            },
+            {
+                "name": "fishing-rod stamp",
+                "localized_name": {
+                    "en": "Fishing Rod Stamp"
+                },
+                "number": "17",
+                "type": "skills",
+                "bonus": "+2 Base Fishing Efficiency"
+            }
+        ],
+        "misc": [
+            {
+                "name": "questin-stamp",
+                "localized_name": {
+                    "en": "Questin Stamp"
+                },
+                "number": "1",
+                "type": "misc",
+                "bonus": "Quest Exp"
+            },
+            {
+                "name": "crystallin",
+                "localized_name": {
+                    "en": "Crystallin"
+                },
+                "number": "2003",
+                "type": "misc",
+                "bonus": "CrySpawn"
+            }
+        ]
+    }
+}

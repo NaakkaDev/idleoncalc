@@ -1,0 +1,86 @@
+{
+    "power": [
+        {
+            "name": "roid-raging",
+            "localized_name": {
+                "en": "Roid Raging"
+            },
+            "bonus": {
+                "str": 1
+            }
+        },
+        {
+            "name": "big-meaty-claws",
+            "localized_name": {
+                "en": "Big Meaty Claws"
+            },
+            "bonus": {
+                "damage": -1
+            },
+            "nomath": true
+        }
+    ],
+    "quicc": [
+        {
+            "name": "swift-steppin",
+            "localized_name": {
+                "en": "Swift Steppin"
+            },
+            "bonus": {
+                "agi": 1
+            }
+        },
+        {
+            "name": "lil-big-damage",
+            "localized_name": {
+                "en": "Lil Big Damage"
+            },
+            "bonus": {
+                "min_damage": -1
+            },
+            "nomath": true
+        },
+        {
+            "name": "quick-slap",
+            "localized_name": {
+                "en": "Quick Slap"
+            },
+            "bonus": {
+                "damage": -1
+            },
+            "nomath": true
+        }
+    ],
+    "high-iq": [
+        {
+            "name": "stable-jenious",
+            "localized_name": {
+                "en": "Stable Jenious"
+            },
+            "bonus": {
+                "wis": 1
+            }
+        },
+        {
+            "name": "name-i-guess",
+            "localized_name": {
+                "en": "Name I Guess"
+            },
+            "bonus": {
+                "damage": -1
+            },
+            "nomath": true
+        }
+    ],
+    "kazam": [
+        {
+            "name": "looto-skills",
+            "localized_name": {
+                "en": "Looto Skills"
+            },
+            "bonus": {
+                "luk": 1
+            }
+        }
+    ]
+}

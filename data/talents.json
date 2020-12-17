@@ -1,0 +1,631 @@
+{
+    "main-talents": {
+        "health-booster": {
+            "bonus": {
+                "hp": 1.2
+            },
+            "name": "health-booster",
+            "localized_name": {
+                "en": "Health Booster"
+            }
+        },
+        "mana-booster": {
+            "bonus": {
+                "mp": 1.1
+            },
+            "name": "mana-booster",
+            "localized_name": {
+                "en": "Mana Booster"
+            }
+        },
+        "star-player": {
+            "bonus": {},
+            "name": "star-player",
+            "localized_name": {
+                "en": "Star Player"
+            }
+        },
+        "bucklered-up": {
+            "nomath": true,
+            "bonus": {
+                "defence_p": -1
+            },
+            "name": "bucklered-up",
+            "localized_name": {
+                "en": "Bucklered Up"
+            }
+        },
+        "sharpened-axe": {
+            "bonus": {
+                "wp": 0.3
+            },
+            "name": "sharpened-axe",
+            "localized_name": {
+                "en": "Sharpened Axe"
+            }
+        },
+        "fist-of-rage": {
+            "bonus": {
+                "str": 1
+            },
+            "name": "fist-of-rage",
+            "localized_name": {
+                "en": "Fist of Rage"
+            }
+        },
+        "quickness-boots": {
+            "bonus": {
+                "agi": 1
+            },
+            "name": "quickness-boots",
+            "localized_name": {
+                "en": "Quickness Boots"
+            }
+        },
+        "book-of-the-wise": {
+            "bonus": {
+                "wis": 1
+            },
+            "name": "book-of-the-wise",
+            "localized_name": {
+                "en": "Book of the Wise"
+            }
+        },
+        "lucky-clover": {
+            "bonus": {
+                "luk": 1
+            },
+            "name": "lucky-clover",
+            "localized_name": {
+                "en": "Lucky Clover"
+            }
+        },
+        "gilded-sword": {
+            "bonus": {
+                "damage_p": 0.01
+            },
+            "name": "gilded-sword",
+            "localized_name": {
+                "en": "Gilded Sword"
+            }
+        }
+    },
+    "class-talents": {
+        "brute-efficiency": {
+            "name": "brute-efficiency",
+            "localized_name": {
+                "en": "Brute Efficiency"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "meat-shank": {
+            "name": "meat-shank",
+            "localized_name": {
+                "en": "Meat Shank"
+            },
+            "class": "warrior",
+            "bonus": {
+                "percentage": true
+            },
+            "percentages": [0.0,0.123,0.244,0.361,0.476,0.588,0.698,0.805,0.909,0.1011,0.1111,0.1209,0.1304,0.1398,0.1489,0.1579,0.1667,0.1753,0.1837,0.1919,0.2000,0.2079,0.2157,0.2233,0.2308,0.2381,0.2453,0.2523,0.2593,0.2661,0.2727,0.2793,0.2857,0.2920,0.2982,0.3043,0.3103,0.3162,0.3220,0.3277,0.3333,0.3388,0.3443,0.3496,0.3548,0.3600,0.3651,0.3701,0.3750,0.3798,0.3846,0.3893,0.3939,0.3985,0.4030,0.4074,0.4118,0.4161,0.4203,0.4245,0.4286,0.4326,0.4366,0.4406,0.4444,0.4483,0.4521,0.4558,0.4595,0.4631,0.4667,0.4702,0.4737,0.4771,0.4805,0.4839,0.4872,0.4904,0.4937,0.4969,0.5000,0.5031,0.5062,0.5092,0.5122,0.5152,0.5181,0.5210,0.5238,0.5266,0.5294,0.5322,0.5349,0.5376,0.5402,0.5429,0.5455,0.5480,0.5506,0.5531,0.5556]
+        },
+        "critikill": {
+            "name": "critikill",
+            "localized_name": {
+                "en": "Critikill"
+            },
+            "class": "warrior",
+            "bonus": {
+                "percentage": true
+            },
+            "percentages": [0.0, 0.0102,0.0200,0.0294,0.0385,0.0473,0.0557,0.0639,0.0717,0.0793,0.0867,0.0938,0.1006,0.1073,0.1138,0.1200,0.1261,0.1319,0.1376,0.1432,0.1486,0.1538,0.1589,0.1638,0.1686,0.1733,0.1779,0.1823,0.1867,0.1909,0.1950,0.1990,0.2029,0.2067,0.2105,0.2141,0.2177,0.2211,0.2245,0.2279,0.2311,0.2343,0.2374,0.2404,0.2434,0.2463,0.2492,0.2520,0.2547,0.2574,0.2600,0.2626,0.2651,0.2676,0.2700,0.2724,0.2747,0.2770,0.2793,0.2815,0.2836,0.2858,0.2879,0.2899,0.2919,0.2939,0.2959,0.2978,0.2997,0.3015,0.3033,0.3051,0.3069,0.3086,0.3103,0.3120,0.3137,0.3153,0.3169,0.3184,0.3200,0.3215,0.3230,0.3245,0.3260,0.3274,0.3288,0.3302,0.3316,0.3329,0.3343,0.3356,0.3369,0.3382,0.3394,0.3407,0.3419,0.3431,0.3443,0.3455,0.3467]
+        },
+        "idle-brawling": {
+            "name": "idle-brawling",
+            "localized_name": {
+                "en": "Idle Brawling"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "idle-skilling": {
+            "name": "idle-skilling",
+            "localized_name": {
+                "en": "Idle Skilling"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+
+
+        "elusive-efficiency": {
+            "name": "elusive-efficiency",
+            "localized_name": {
+                "en": "Elusive Efficiency"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "featherweight": {
+            "name": "featherweight",
+            "localized_name": {
+                "en": "Featherweighty"
+            },
+            "class": "archer",
+            "bonus": {
+                "movement_p": 0.0061
+            }
+        },
+        "i-see-you": {
+            "name": "i-see-you",
+            "localized_name": {
+                "en": "I See You"
+            },
+            "class": "archer",
+            "bonus": {
+                "crit_chance_p": 0.00053
+            }
+        },
+        "idle-shooting": {
+            "name": "idle-shooting",
+            "localized_name": {
+                "en": "Idle Shooting"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "broken-time": {
+            "name": "broken-time",
+            "localized_name": {
+                "en": "Broken Time"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+
+
+        "smart-efficiency": {
+            "name": "smart-efficiency",
+            "localized_name": {
+                "en": "Smart Efficiency"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "overclocked-energy": {
+            "name": "overclocked-energy",
+            "localized_name": {
+                "en": "Overclocked Energy"
+            },
+            "class": "mage",
+            "bonus": {
+                "percentage": true
+            },
+            "percentages": [0.0,1.85,3.65,5.45,7.15,8.85,10.45,12.05,13.65,15.15,16.65,18.15,19.55,20.95,22.35,23.65,24.95,26.25,27.55,28.75,29.95,31.15,32.35,33.45,34.55,35.65,36.75,37.85,38.85,39.85,40.85,41.83,42.80,43.75,44.68,45.60,46.50,47.38,48.25,49.10,49.94,50.77,51.58,52.38,53.17,53.94,54.70,55.45,56.19,56.92,57.64,58.34,59.03,59.71,60.38,61.04,61.69,62.33,62.96,63.59,64.21,64.82,65.42,66.01,66.59,67.16,67.73,68.29,68.84,69.38,69.92,70.45,70.97,71.49,72.00,72.50,73.00,73.49,73.97,74.45,74.92,75.39,75.85,76.30,76.75,77.19,77.63,78.06,78.49,78.91,79.33,79.74,80.15,80.55,80.95,81.34,81.73,82.12,82.50,82.88,83.25]
+        },
+        "farsight": {
+            "name": "farsight",
+            "localized_name": {
+                "en": "Farsight"
+            },
+            "class": "mage",
+            "bonus": {
+                "crit_chance_p": 0.00037,
+                "crit_damage_p": 0.00072
+            }
+        },
+        "idle-casting": {
+            "name": "idle-casting",
+            "localized_name": {
+                "en": "Idle Casting"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "active-afker": {
+            "name": "active-afker",
+            "localized_name": {
+                "en": "Active AFK'er"
+            },
+            "class": "mage",
+            "bonus": {}
+        }
+
+    },
+    "class-specific-talents": {
+        "power-strike": {
+            "name": "power-strike",
+            "localized_name": {
+                "en": "Power Strike"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "whirl": {
+            "name": "whirl",
+            "localized_name": {
+                "en": "Whirl"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "health-overdrive": {
+            "name": "health-overdrive",
+            "localized_name": {
+                "en": "Health Overdrive"
+            },
+            "class": "warrior",
+            "bonus": {
+                "hp_p": -1
+            },
+            "nomath": true
+        },
+        "double-strike": {
+            "name": "double-strike",
+            "localized_name": {
+                "en": "Double Strike"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "firmly-grasp-it": {
+            "name": "firmly-grasp-it",
+            "localized_name": {
+                "en": "Firmly Grasp it"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "strength-in-numbers": {
+            "name": "strength-in-numbers",
+            "localized_name": {
+                "en": "Strength in Numbers"
+            },
+            "class": "warrior",
+            "bonus": {
+                "damage_p": 0.008,
+                "hp_p": 0.008
+            }
+        },
+        "stress-tested-garb": {
+            "name": "stress-tested-garb",
+            "localized_name": {
+                "en": "Stress Tested Garb"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "carry-a-big-stick": {
+            "name": "carry-a-big-stick",
+            "localized_name": {
+                "en": "Carry a Big Stick"
+            },
+            "class": "warrior",
+            "bonus": {
+                "wp_p": 0.01
+            }
+        },
+        "apsolute-unit": {
+            "name": "apsolute-unit",
+            "localized_name": {
+                "en": "Apsolute Unit"
+            },
+            "class": "warrior",
+            "bonus": {
+                "str": 1
+            }
+        },
+        "haungry-for-gold": {
+            "name": "haungry-for-gold",
+            "localized_name": {
+                "en": "Haungry for Gold"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "big-pick": {
+            "name": "big-pick",
+            "localized_name": {
+                "en": "Big Pick"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "copper-collector": {
+            "name": "copper-collector",
+            "localized_name": {
+                "en": "Copper Collector"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "motherlode-miner": {
+            "name": "motherlode-miner",
+            "localized_name": {
+                "en": "Motherlode Miner"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "tool-proficiency": {
+            "name": "tool-proficiency",
+            "localized_name": {
+                "en": "Tool Proficiency"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+        "tempestuous-emotions": {
+            "name": "tempestuous-emotions",
+            "localized_name": {
+                "en": "Tempestuous Emotions"
+            },
+            "class": "warrior",
+            "bonus": {}
+        },
+
+
+        "piercing-arrow": {
+            "name": "piercing-arrow",
+            "localized_name": {
+                "en": "Piercing Arrow"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "kung-fu-kick": {
+            "name": "kung-fu-kick",
+            "localized_name": {
+                "en": "Kung Fu Kick"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "hema-overdrive": {
+            "name": "hema-overdrive",
+            "localized_name": {
+                "en": "Hema Overdrive"
+            },
+            "class": "archer",
+            "bonus": {
+                "hp_p": 0.004,
+                "mp_p": 0.004
+            }
+        },
+        "strafe": {
+            "name": "strafe",
+            "localized_name": {
+                "en": "Strafe"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "have-another": {
+            "name": "have-another",
+            "localized_name": {
+                "en": "Have Another!"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "veins-of-the-infernal": {
+            "name": "veins-of-the-infernal",
+            "localized_name": {
+                "en": "Veins of the Infernal"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "garb-of-unaging-quality": {
+            "name": "garb-of-unaging-quality",
+            "localized_name": {
+                "en": "Garb of Un'agi'ng Quality"
+            },
+            "class": "archer",
+            "bonus": {
+                "agi_gear_p": 0.015
+            }
+        },
+        "high-polymer-limbs": {
+            "name": "high-polymer-limbs",
+            "localized_name": {
+                "en": "High Polymer Limbs"
+            },
+            "class": "archer",
+            "bonus": {
+                "wp_p": 0.01
+            }
+        },
+        "sanic-speed": {
+            "name": "sanic-speed",
+            "localized_name": {
+                "en": "Sanic Speed"
+            },
+            "class": "archer",
+            "bonus": {
+                "agi": 1
+            }
+        },
+        "robbinghood": {
+            "name": "robbinghood",
+            "localized_name": {
+                "en": "Robbinghood"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "smeltin-erryday": {
+            "name": "smeltin-erryday",
+            "localized_name": {
+                "en": "Smeltin' Erryday"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "acme-anvil": {
+            "name": "acme-anvil",
+            "localized_name": {
+                "en": "ACME Anvil"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "yea-i-already-know": {
+            "name": "yea-i-already-know",
+            "localized_name": {
+                "en": "Yea I Already Know"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "godly-creation": {
+            "name": "godly-creation",
+            "localized_name": {
+                "en": "Godly Creation"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+        "focused-soul": {
+            "name": "focused-soul",
+            "localized_name": {
+                "en": "Focused Soul"
+            },
+            "class": "archer",
+            "bonus": {}
+        },
+
+
+        "energy-bolt": {
+            "name": "energy-bolt",
+            "localized_name": {
+                "en": "Energy Bolt"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "mini-fireball": {
+            "name": "mini-fireball",
+            "localized_name": {
+                "en": "Mini Fireball"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "mana-overdrive": {
+            "name": "mana-overdrive",
+            "localized_name": {
+                "en": "Mana Overdrive"
+            },
+            "class": "mage",
+            "bonus": {
+                "mp_p": 0.005
+            }
+        },
+        "teleport": {
+            "name": "teleport",
+            "localized_name": {
+                "en": "Teleport"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "youre-next": {
+            "name": "youre-next",
+            "localized_name": {
+                "en": "You're Next"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "knowledge-is-power": {
+            "name": "knowledge-is-power",
+            "localized_name": {
+                "en": "Knowledge is Power"
+            },
+            "class": "mage",
+            "bonus": {
+                "damage_p": 0.015
+            }
+        },
+        "untwisted-robes": {
+            "name": "untwisted-robes",
+            "localized_name": {
+                "en": "Unt'WIS'ted Robes"
+            },
+            "class": "mage",
+            "bonus": {
+                "wis_gear_p": 0.0015
+            }
+        },
+        "power-overwhelming": {
+            "name": "power-overwhelming",
+            "localized_name": {
+                "en": "Power Overwhelming"
+            },
+            "class": "mage",
+            "bonus": {
+                "wp_p": 0.012
+            }
+        },
+        "free-meal": {
+            "name": "free-meal",
+            "localized_name": {
+                "en": "Free Meal"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "individual-insight": {
+            "name": "individual-insight",
+            "localized_name": {
+                "en": "Individual Insight"
+            },
+            "class": "mage",
+            "bonus": {
+                "wis": 1
+            }
+        },
+        "log-on-logs": {
+            "name": "log-on-logs",
+            "localized_name": {
+                "en": "Log on Logs"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "leaf-thief": {
+            "name": "leaf-thief",
+            "localized_name": {
+                "en": "Leaf Thief"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "deforesting-all-doubt": {
+            "name": "deforesting-all-doubt",
+            "localized_name": {
+                "en": "Deforesting All Doubt"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "inner-peace": {
+            "name": "inner-peace",
+            "localized_name": {
+                "en": "Inner Peace"
+            },
+            "class": "mage",
+            "bonus": {}
+        },
+        "choppin-it-up-ez": {
+            "name": "choppin-it-up-ez",
+            "localized_name": {
+                "en": "Choppin it up EZ"
+            },
+            "class": "mage",
+            "bonus": {}
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "beginner": {
+        "name": "beginner",
+        "localized_name": {
+            "en": "Beginner"
+        },
+        "subclasses": {}
+    },
+    "warrior": {
+        "name": "warrior",
+        "localized_name": {
+            "en": "Warrior"
+        },
+        "subclass": {
+            "Barbarian": {
+                "name": "barbarian",
+                "localized_name": {
+                    "en": "Barbarian"
+                }
+            },
+            "Squire": {
+                "name": "squire",
+                "localized_name": {
+                    "en": "Squire"
+                }
+            }
+        }
+    },
+    "archer": {
+        "name": "archer",
+        "localized_name": {
+            "en": "Archer"
+        },
+        "subclasses": {
+            "bowman": {
+                "name": "bowman",
+                "localized_name": {
+                    "en": "Bowman"
+                }
+            },
+            "hunter": {
+                "name": "hunter",
+                "localized_name": {
+                    "en": "Hunter"
+                }
+            }
+        }
+    },
+    "mage": {
+        "name": "mage",
+        "localized_name": {
+            "en": "Mage"
+        },
+        "subclasses": {
+            "wizard": {
+                "name": "wizard",
+                "localized_name": {
+                    "en": "Wizard"
+                }
+            },
+            "shaman": {
+                "name": "shaman",
+                "localized_name": {
+                    "en": "Shaman"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="item.js"></script>
+  <script src="starsigns.js"></script>
+  <script src="talents.js"></script>
+  <script src="classes.js"></script>
+  <script src="stamp.js"></script>
+  <script src="statue.js"></script>
+  <script src="alchemy.js"></script>
+  <script src="character.js"></script>
+  <script src="profile.js"></script>
+  <script src="init.js"></script>
+</head>
+
+<body onload="init()">
+  <div class="wrapper control-wrapper">
+    <div>
+      <button id="resetButton">Reset everything</button>
+      <button id="resetTalentsButton">Reset talents</button>
+    </div>
+    <div>
+      <button id="saveProfile" data-id="1">Save</button>
+      <button class="btn btn--load" data-button="setProfile" data-id="1">1</button>
+      <button class="btn btn--load" data-button="setProfile" data-id="2">2</button>
+      <button class="btn btn--load" data-button="setProfile" data-id="3">3</button>
+      <button class="btn btn--load" data-button="setProfile" data-id="4">4</button>
+      <button id="loadProfile">Load</button>
+    </div>
+  </div>
+
+  <div class="wrapper content-wrapper">
+    <div class="stat-container">
+      <div>
+        <div class="stat__title"><strong>Total stats</strong></div>
+        <div class="stat__row">
+          <div class="stat__name">Damage</div>
+          <div class="stat__value" id="value-damage">0</div>
+        </div>
+        <div class="stat__row">
+          <div class="stat__name">Accuracy</div>
+          <div class="stat__value" id="value-accuracy">0</div>
+        </div>
+        <div class="stat__row">
+          <div class="stat__name">Defence</div>
+          <div class="stat__value" id="value-def">0</div>
+        </div>
+      </div>
+      <div>
+        <div class="stat__row">
+          <div class="stat__name">STR</div>
+          <div class="stat__value" id="value-str">0</div>
+        </div>
+        <div class="stat__row">
+          <div class="stat__name">AGI</div>
+          <div class="stat__value" id="value-agi">0</div>
+        </div>
+        <div class="stat__row">
+          <div class="stat__name">WIS</div>
+          <div class="stat__value" id="value-wis">0</div>
+        </div>
+        <div class="stat__row">
+          <div class="stat__name">LUK</div>
+          <div class="stat__value" id="value-luk">0</div>
+        </div>
+      </div>
+      <div>
+        <div class="stat__row">
+          <div class="stat__name">Max HP</div>
+          <div class="stat__value" id="value-hp">0</div>
+        </div>
+        <div class="stat__row">
+          <div class="stat__name">Max MP</div>
+          <div class="stat__value" id="value-mp">0</div>
+        </div>
+        <div class="stat__row stat__row--disabled">
+          <div class="stat__name">Crit Chce</div>
+          <div class="stat__value">0</div>
+        </div>
+        <div class="stat__row stat__row--disabled">
+          <div class="stat__name">Crit Dmg</div>
+          <div class="stat__value">0</div>
+        </div>
+      </div>
+      <div>
+        <div class="stat__row stat__row--disabled">
+          <div class="stat__name">Drop Rarity</div>
+          <div class="stat__value">0</div>
+        </div>
+        <div class="stat__row stat__row--disabled">
+          <div class="stat__name">Mov Speed</div>
+          <div class="stat__value">0</div>
+        </div>
+        <div class="stat__row stat__row--disabled">
+          <div class="stat__name">Class EXP</div>
+          <div class="stat__value">0</div>
+        </div>
+        <div class="stat__row stat__row--disabled">
+          <div class="stat__name">WP</div>
+          <div class="stat__value" id="value-wp">0</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-wrapper">
+      <input type="radio" checked name="tab" class="tab__radio" id="tab1">
+      <label for="tab1" class="tab__label tab-icon--class">Class & Talens</label>
+
+      <input type="radio" name="tab" class="tab__radio" id="tab2">
+      <label for="tab2" class="tab__label tab-icon--paperdoll">Paperdoll</label>
+
+      <input type="radio" name="tab" class="tab__radio" id="tab3">
+      <label for="tab3" class="tab__label tab-icon--stamp">Stamps & Statues</label>
+
+      <input type="radio" name="tab" class="tab__radio" id="tab4">
+      <label for="tab4" class="tab__label tab-icon--alchemy">Alchemy</label>
+
+      <!-- CLASS AND TALENTS -->
+      <div class="tab__content">
+        <h2>Select your Star Sign</h2>
+        <div>
+          <div id="starSignSelectorContainer"></div>
+        </div>
+
+        <h2>Select a Class</h2>
+        <div class="class-container" id="classContainer"></div>
+        <div>
+          <div class="class__funny" id="classJokeText_beginner">
+            You're a <strong>Beginner</strong>, a user of many skills but master of none.
+          </div>
+          <div class="class__funny" id="classJokeText_warrior">
+            You're a <strong>Warrior</strong>, a spear wielding maniac who likes to poke things.
+          </div>
+          <div class="class__funny" id="classJokeText_archer">
+            You're an <strong>Archer</strong>, a fast running idealist who likes to poke things from afar. 
+          </div>
+          <div class="class__funny" id="classJokeText_mage">
+            You're a <strong>Mage</strong>, a person so smart that others think you're an fire hazard.
+          </div>
+        </div>
+
+        <h2>Talents</h2>
+        <h3>General Talents</h3>
+        <div class="talent-container">
+          <div class="talents" id="mainTalentContainer"></div>
+          <div class="talent__info" id="mainTalentInfo"></div>
+        </div>
+        <h3>Class Talents</h3>
+        <div class="talent-container">
+          <div class="talents" id="classTalentContainer"></div>
+        </div>
+      </div>
+
+      <!-- PAPERDOLL -->
+      <div class="tab__content">
+        <h2>Paperdoll</h2>
+        <p>Clothes make a person, person makes clothes. *gasps*</p>
+        <div class="paperdoll-container">
+          
+          <div class="paperdoll" id="paperdoll">
+            <div class="paperdoll__slot" id="pSlot_1" data-category="armour" data-type="hat">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_2" data-category="armour" data-type="shirt">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_3" data-category="armour" data-type="pants">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_4" data-category="armour" data-type="shoe">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_5" data-category="weapon" data-type="all">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_6" data-category="jewelry" data-type="pendant">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_7" data-category="jewelry" data-type="ring">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_8" data-category="jewelry" data-type="ring" data-paperdol>
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_9" data-category="tool" data-type="mining">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_10" data-category="tool" data-type="chopping">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_11" data-category="tool" data-type="fishing">
+              <div class="paperdoll__search"></div>
+            </div>
+            <div class="paperdoll__slot" id="pSlot_12" data-category="tool" data-type="catching" data-paperdol>
+              <div class="paperdoll__search"></div>
+            </div>
+
+            <div style="grid-area: 8 / 1 / 8 / 3; margin-top: 10px;">
+              <button id="resetPaperdollButton">Reset Paperdoll</button>
+            </div>
+          </div>
+
+          <div class="paperdoll__stats" id="pSlot_1_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_2_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_3_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_4_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_5_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_6_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_7_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_8_stats"></div>
+
+          <div class="paperdoll__stats" id="pSlot_9_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_10_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_11_stats"></div>
+          <div class="paperdoll__stats" id="pSlot_12_stats"></div>
+        </div>
+      </div>
+
+      <!-- STAMPS AND STATUES -->
+      <div class="tab__content">
+        <div class="stamp-container">
+          <h2>Stamps</h2>
+          <p>One for each type of letter.</p>
+          <div>
+            <div id="stamps"></div>
+            <div id="stampsInfo"></div> 
+          </div>
+        </div>
+
+        <div class="statue-container">
+          <h2>Statues</h2>
+          <p>Made in Volcanomia. 100% stone.</p>
+          <div>
+            <div id="statues"></div>
+            <div id="statuesInfo"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALCHEMY -->
+      <div class="tab__content">
+        <div class="alchemy-container">
+          <div id="cauldrons"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="paperdoll-containera">
+
+
+    <div class="div2">
+
+      <div>
+        
+      </div>
+    </div>
+    <div class="div3" id="bonusStatsContainer" style="font-size: 0.6em">
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

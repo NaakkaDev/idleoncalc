@@ -1,0 +1,3086 @@
+{
+    "tool": {
+        "mining": [
+            {
+                "name": "copper-pickaxe",
+                "localized_name": {
+                    "en": "Copper Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 8,
+                "stats": {
+                    "speed": 3,
+                    "sp": 6,
+                    "str": 3,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "iron-pickaxe",
+                "localized_name": {
+                    "en": "Iron Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 18,
+                "stats": {
+                    "speed": 4,
+                    "sp": 10,
+                    "str": 5,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gold-pickaxe",
+                "localized_name": {
+                    "en": "Gold Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 26,
+                "stats": {
+                    "speed": 4,
+                    "sp": 13,
+                    "str": 8,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "junk-pickaxe",
+                "localized_name": {
+                    "en": "Junk Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 3,
+                "stats": {
+                    "speed": 3,
+                    "sp": 2,
+                    "str": 1,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "platinum-pickaxe",
+                "localized_name": {
+                    "en": "Platinum Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 33,
+                "stats": {
+                    "speed": 4,
+                    "sp": 16,
+                    "str": 11,
+                    "agi": 4,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": "1% mining efficincy"
+            },
+            {
+                "name": "dementia-pickaxe",
+                "localized_name": {
+                    "en": "Dementia Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 45,
+                "stats": {
+                    "speed": 4,
+                    "sp": 19,
+                    "str": 15,
+                    "agi": 5,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": "2% mining efficincy"
+            },
+            {
+                "name": "lustre-pickaxe",
+                "localized_name": {
+                    "en": "Lustre Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 57,
+                "stats": {
+                    "speed": 5,
+                    "sp": 23,
+                    "str": 20,
+                    "agi": 7,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": "5% mining efficincy"
+            },
+            {
+                "name": "dreadlo-pickolo",
+                "localized_name": {
+                    "en": "Dreadlo Pickolo"
+                },
+                "skill": "mining",
+                "lvl": 90,
+                "stats": {
+                    "speed": 5,
+                    "sp": 29,
+                    "str": 25,
+                    "agi": 9,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": "8% mining efficincy"
+            },
+            {
+                "name": "poopy-pickaxe",
+                "localized_name": {
+                    "en": "Poopy Pickaxe"
+                },
+                "skill": "mining",
+                "lvl": 15,
+                "stats": {
+                    "speed": 2,
+                    "sp": 19,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": "2% mining efficincy"
+            }
+        ],
+        "chopping": [
+            {
+                "name": "old-hatchet",
+                "localized_name": {
+                    "en": "Old Hatchet"
+                },
+                "skill": "chopping",
+                "lvl": 3,
+                "stats": {
+                    "speed": 3,
+                    "sp": 3,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 1,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "copper-chopper",
+                "localized_name": {
+                    "en": "Copper Chopper"
+                },
+                "skill": "chopping",
+                "lvl": 8,
+                "stats": {
+                    "speed": 3,
+                    "sp": 7,
+                    "str": 0,
+                    "agi": 1,
+                    "wis": 3,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "iron-hatchet",
+                "localized_name": {
+                    "en": "Iron Hatchet"
+                },
+                "skill": "chopping",
+                "lvl": 18,
+                "stats": {
+                    "speed": 3,
+                    "sp": 10,
+                    "str": 2,
+                    "agi": 0,
+                    "wis": 5,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "golden-axe",
+                "localized_name": {
+                    "en": "Golden Axe"
+                },
+                "skill": "chopping",
+                "lvl": 26,
+                "stats": {
+                    "speed": 4,
+                    "sp": 14,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 8,
+                    "luk": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "plat-hatchet",
+                "localized_name": {
+                    "en": "Plat Hatchet"
+                },
+                "skill": "chopping",
+                "lvl": 33,
+                "stats": {
+                    "speed": 4,
+                    "sp": 18,
+                    "str": 0,
+                    "agi": 5,
+                    "wis": 14,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "dementia-dicer",
+                "localized_name": {
+                    "en": "Dementia Dicer"
+                },
+                "skill": "chopping",
+                "lvl": 45,
+                "stats": {
+                    "speed": 4,
+                    "sp": 23,
+                    "str": 0,
+                    "agi": 6,
+                    "wis": 17,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "lustre-logger",
+                "localized_name": {
+                    "en": "Lustre Logger"
+                },
+                "skill": "chopping",
+                "lvl": 57,
+                "stats": {
+                    "speed": 5,
+                    "sp": 26,
+                    "str": 7,
+                    "agi": 0,
+                    "wis": 20,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "void-hatchet",
+                "localized_name": {
+                    "en": "Void Hatchet"
+                },
+                "skill": "chopping",
+                "lvl": 70,
+                "stats": {
+                    "speed": 5,
+                    "sp": 29,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 24,
+                    "luk": 8
+                },
+                "bonus": {}
+            },
+            {
+                "name": "starfire-hatchet",
+                "localized_name": {
+                    "en": "Starfire Hatchet"
+                },
+                "skill": "chopping",
+                "lvl": 80,
+                "stats": {
+                    "speed": 5,
+                    "sp": 35,
+                    "str": 0,
+                    "agi": 9,
+                    "wis": 28,
+                    "luk": 3
+                },
+                "bonus": {}
+            },
+            {
+                "name": "dreadlo-eviscerator",
+                "localized_name": {
+                    "en": "Dreadlo Eviscerator"
+                },
+                "skill": "chopping",
+                "lvl": 90,
+                "stats": {
+                    "speed": 5,
+                    "sp": 40,
+                    "str": 4,
+                    "agi": 4,
+                    "wis": 32,
+                    "luk": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "annihilator-of the yggdrasil",
+                "localized_name": {
+                    "en": "Annihilator of the Yggdrasil"
+                },
+                "skill": "chopping",
+                "lvl": 100,
+                "stats": {
+                    "speed": 6,
+                    "sp": 50,
+                    "str": 5,
+                    "agi": 5,
+                    "wis": 40,
+                    "luk": 5
+                },
+                "bonus": {}
+            }
+        ],
+        "fishing": [
+            {
+                "name": "copper-fish rod",
+                "localized_name": {
+                    "en": "Copper Fish Rod"
+                },
+                "skill": "fishing",
+                "lvl": 10,
+                "stats": {
+                    "speed": 3,
+                    "sp": 8,
+                    "str": 2,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "iron-fishing rod",
+                "localized_name": {
+                    "en": "Iron Fishing Rod"
+                },
+                "skill": "fishing",
+                "lvl": 20,
+                "stats": {
+                    "speed": 3,
+                    "sp": 13,
+                    "str": 4,
+                    "agi": 0,
+                    "wis": 1,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "wood-fishing rod",
+                "localized_name": {
+                    "en": "Wood Fishing Rod"
+                },
+                "skill": "fishing",
+                "lvl": 1,
+                "stats": {
+                    "speed": 3,
+                    "sp": 3,
+                    "str": 1,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gold-fishing rod",
+                "localized_name": {
+                    "en": "Gold Fishing Rod"
+                },
+                "skill": "fishing",
+                "lvl": 30,
+                "stats": {
+                    "speed": 4,
+                    "sp": 19,
+                    "str": 6,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "plat-fishing rod",
+                "localized_name": {
+                    "en": "Plat Fishing Rod"
+                },
+                "skill": "fishing",
+                "lvl": 40,
+                "stats": {
+                    "speed": 4,
+                    "sp": 25,
+                    "str": 9,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            }
+        ],
+        "catching": [
+            {
+                "name": "copper-netted net",
+                "localized_name": {
+                    "en": "Copper Netted Net"
+                },
+                "skill": "catching",
+                "lvl": 10,
+                "stats": {
+                    "speed": 4,
+                    "sp": 9,
+                    "str": 1,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "reinforced-net",
+                "localized_name": {
+                    "en": "Reinforced Net"
+                },
+                "skill": "catching",
+                "lvl": 21,
+                "stats": {
+                    "speed": 4,
+                    "sp": 14,
+                    "str": 2,
+                    "agi": 4,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "bug-net",
+                "localized_name": {
+                    "en": "Bug Net"
+                },
+                "skill": "catching",
+                "lvl": 1,
+                "stats": {
+                    "speed": 4,
+                    "sp": 4,
+                    "str": 0,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gilded-net",
+                "localized_name": {
+                    "en": "Gilded Net"
+                },
+                "skill": "catching",
+                "lvl": 30,
+                "stats": {
+                    "speed": 5,
+                    "sp": 20,
+                    "str": 2,
+                    "agi": 6,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "platinet",
+                "localized_name": {
+                    "en": "Platinet"
+                },
+                "skill": "catching",
+                "lvl": 42,
+                "stats": {
+                    "speed": 5,
+                    "sp": 26,
+                    "str": 3,
+                    "agi": 7,
+                    "wis": 0,
+                    "luk": 0
+                },
+                "bonus": {}
+            }
+        ]
+    },
+    "weapon": {
+        "fisticuffs": [
+            {
+                "name": "boxing-gloves",
+                "localized_name": {
+                    "en": "Boxing Gloves"
+                },
+                "class": "all",
+                "lvl": 2,
+                "stats": {
+                    "speed": 4,
+                    "wp": 4,
+                    "str": 2,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 2,
+                    "reach": 55
+                },
+                "bonus": {}
+            },
+            {
+                "name": "the-stingers",
+                "localized_name": {
+                    "en": "The Stingers"
+                },
+                "class": "all",
+                "lvl": 6,
+                "stats": {
+                    "speed": 5,
+                    "wp": 11,
+                    "str": 5,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "reach": 60
+                },
+                "bonus": {}
+            },
+            {
+                "name": "bandage-wraps",
+                "localized_name": {
+                    "en": "Bandage Wraps"
+                },
+                "class": "beginner",
+                "lvl": 25,
+                "stats": {
+                    "speed": 7,
+                    "wp": 20,
+                    "str": 6,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 10,
+                    "reach": 65
+                },
+                "bonus": {}
+            }
+        ],
+        "spears": [
+            {
+                "name": "iron-sword",
+                "localized_name": {
+                    "en": "Iron Sword"
+                },
+                "class": "warrior",
+                "lvl": 1,
+                "stats": {
+                    "speed": 9,
+                    "wp": 25,
+                    "str": 3,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 1,
+                    "reach": 78
+                },
+                "bonus": {}
+            },
+            {
+                "name": "flesh-reaper",
+                "localized_name": {
+                    "en": "Flesh Reaper"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "speed": 5,
+                    "wp": 400,
+                    "str": 0,
+                    "agi": 40,
+                    "wis": 0,
+                    "luk": 10,
+                    "reach": 70
+                },
+                "bonus": {}
+            },
+            {
+                "name": "wooden-spear",
+                "localized_name": {
+                    "en": "Wooden Spear"
+                },
+                "class": "all",
+                "lvl": 4,
+                "stats": {
+                    "speed": 5,
+                    "wp": 8,
+                    "str": 3,
+                    "agi": 0,
+                    "wis": 1,
+                    "luk": 0,
+                    "reach": 70
+                },
+                "bonus": {}
+            },
+            {
+                "name": "steel-axe",
+                "localized_name": {
+                    "en": "Steel Axe"
+                },
+                "class": "warrior",
+                "lvl": 11,
+                "stats": {
+                    "speed": 5,
+                    "wp": 14,
+                    "str": 7,
+                    "agi": 0,
+                    "wis": 3,
+                    "luk": 0,
+                    "reach": 62
+                },
+                "bonus": {}
+            },
+            {
+                "name": "steel-spear",
+                "localized_name": {
+                    "en": "Steel Spear"
+                },
+                "class": "warrior",
+                "lvl": 25,
+                "stats": {
+                    "speed": 2,
+                    "wp": 40,
+                    "str": 2,
+                    "agi": 0,
+                    "wis": 3,
+                    "luk": 1,
+                    "reach": 90
+                },
+                "bonus": {}
+            },
+            {
+                "name": "royal-bayonet",
+                "localized_name": {
+                    "en": "Royal Bayonet"
+                },
+                "class": "warrior",
+                "lvl": 30,
+                "stats": {
+                    "speed": 4,
+                    "wp": 20,
+                    "str": 10,
+                    "agi": 0,
+                    "wis": 2,
+                    "luk": 0,
+                    "reach": 95
+                },
+                "bonus": {}
+            },
+            {
+                "name": "frozen-impaler",
+                "localized_name": {
+                    "en": "Frozen Impaler"
+                },
+                "class": "warrior",
+                "lvl": 45,
+                "stats": {
+                    "speed": 3,
+                    "wp": 66,
+                    "str": 4,
+                    "agi": 2,
+                    "wis": 9,
+                    "luk": 2,
+                    "reach": 100
+                },
+                "bonus": {}
+            },
+            {
+                "name": "enforced-slasher",
+                "localized_name": {
+                    "en": "Enforced Slasher"
+                },
+                "class": "warrior",
+                "lvl": 45,
+                "stats": {
+                    "speed": null,
+                    "wp": 26,
+                    "str": 12,
+                    "agi": 0,
+                    "wis": 4,
+                    "luk": 0,
+                    "reach": 80
+                },
+                "bonus": {}
+            },
+            {
+                "name": "blood-screamer",
+                "localized_name": {
+                    "en": "Blood Screamer"
+                },
+                "class": "warrior",
+                "lvl": 55,
+                "stats": {
+                    "speed": 4,
+                    "wp": 87,
+                    "str": 5,
+                    "agi": 15,
+                    "wis": 5,
+                    "luk": 5,
+                    "reach": 84
+                },
+                "bonus": {}
+            },
+            {
+                "name": "flaming-katana",
+                "localized_name": {
+                    "en": "Flaming Katana"
+                },
+                "class": "warrior",
+                "lvl": 85,
+                "stats": {
+                    "speed": 7,
+                    "wp": 36,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 6,
+                    "luk": 8,
+                    "reach": 74
+                },
+                "bonus": {}
+            },
+            {
+                "name": "emerald-eizon",
+                "localized_name": {
+                    "en": "Emerald Eizon"
+                },
+                "class": "warrior",
+                "lvl": 95,
+                "stats": {
+                    "speed": 7,
+                    "wp": 45,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 3,
+                    "luk": 2,
+                    "reach": 76
+                },
+                "bonus": {}
+            },
+            {
+                "name": "stalagmite",
+                "localized_name": {
+                    "en": "Stalagmite"
+                },
+                "class": "warrior",
+                "lvl": 155,
+                "stats": {
+                    "speed": 8,
+                    "wp": 55,
+                    "str": 10,
+                    "agi": 5,
+                    "wis": 6,
+                    "luk": 0,
+                    "reach": 78
+                },
+                "bonus": {}
+            }
+        ],
+        "bows": [
+            {
+                "name": "wooden-bow",
+                "localized_name": {
+                    "en": "Wooden Bow"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "speed": 6,
+                    "wp": 7,
+                    "str": 2,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 0,
+                    "reach": 150
+                },
+                "bonus": {}
+            },
+            {
+                "name": "birch-longbow",
+                "localized_name": {
+                    "en": "Birch Longbow"
+                },
+                "class": "archer",
+                "lvl": 12,
+                "stats": {
+                    "speed": 6,
+                    "wp": 12,
+                    "str": 4,
+                    "agi": 5,
+                    "wis": 0,
+                    "luk": 0,
+                    "reach": 170
+                },
+                "bonus": {}
+            },
+            {
+                "name": "carrot-launcher",
+                "localized_name": {
+                    "en": "Carrot Launcher"
+                },
+                "class": "archer",
+                "lvl": 18,
+                "stats": {
+                    "speed": 2,
+                    "wp": 22,
+                    "str": 0,
+                    "agi": 4,
+                    "wis": 0,
+                    "luk": 1,
+                    "reach": 225
+                },
+                "bonus": {}
+            },
+            {
+                "name": "rooted-bow",
+                "localized_name": {
+                    "en": "Rooted Bow"
+                },
+                "class": "archer",
+                "lvl": 25,
+                "stats": {
+                    "speed": 7,
+                    "wp": 25,
+                    "str": 18,
+                    "agi": 15,
+                    "wis": 0,
+                    "luk": 1,
+                    "reach": 200
+                },
+                "bonus": {}
+            },
+            {
+                "name": "spiked-menace",
+                "localized_name": {
+                    "en": "Spiked Menace"
+                },
+                "class": "archer",
+                "lvl": 30,
+                "stats": {
+                    "speed": 6,
+                    "wp": 17,
+                    "str": 5,
+                    "agi": 8,
+                    "wis": 0,
+                    "luk": 3,
+                    "reach": 175
+                },
+                "bonus": {}
+            },
+            {
+                "name": "pharoah-bow",
+                "localized_name": {
+                    "en": "Pharoah Bow"
+                },
+                "class": "archer",
+                "lvl": 45,
+                "stats": {
+                    "speed": 6,
+                    "wp": 23,
+                    "str": 1,
+                    "agi": 13,
+                    "wis": 0,
+                    "luk": 0,
+                    "reach": 200
+                },
+                "bonus": {}
+            }
+        ],
+        "wands": [
+            {
+                "name": "spriggly-staff",
+                "localized_name": {
+                    "en": "Spriggly Staff"
+                },
+                "class": "mage",
+                "lvl": 1,
+                "stats": {
+                    "speed": 5,
+                    "wp": 25,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 15,
+                    "luk": 1,
+                    "reach": 160
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gnarled-wand",
+                "localized_name": {
+                    "en": "Gnarled Wand"
+                },
+                "class": "all",
+                "lvl": 4,
+                "stats": {
+                    "speed": 4,
+                    "wp": 9,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 4,
+                    "luk": 0,
+                    "reach": 115
+                },
+                "bonus": {}
+            },
+            {
+                "name": "quarterstaff",
+                "localized_name": {
+                    "en": "Quarterstaff"
+                },
+                "class": "mage",
+                "lvl": 12,
+                "stats": {
+                    "speed": 4,
+                    "wp": 16,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 9,
+                    "luk": 0,
+                    "reach": 120
+                },
+                "bonus": {}
+            },
+            {
+                "name": "starlight",
+                "localized_name": {
+                    "en": "Starlight"
+                },
+                "class": "mage",
+                "lvl": 30,
+                "stats": {
+                    "speed": 3,
+                    "wp": 23,
+                    "str": 0,
+                    "agi": 1,
+                    "wis": 11,
+                    "luk": 0,
+                    "reach": 160
+                },
+                "bonus": {}
+            },
+            {
+                "name": "crows-nest",
+                "localized_name": {
+                    "en": "Crows Nest"
+                },
+                "class": "mage",
+                "lvl": 45,
+                "stats": {
+                    "speed": 3,
+                    "wp": 30,
+                    "str": 0,
+                    "agi": 5,
+                    "wis": 9,
+                    "luk": 0,
+                    "reach": 160
+                },
+                "bonus": "+5% Movement Speed"
+            },
+            {
+                "name": "microphone",
+                "localized_name": {
+                    "en": "Microphone"
+                },
+                "class": "mage",
+                "lvl": 55,
+                "stats": {
+                    "speed": 8,
+                    "wp": 13,
+                    "str": 0,
+                    "agi": 5,
+                    "wis": 9,
+                    "luk": 0,
+                    "reach": 160
+                },
+                "bonus": {}
+            }
+        ]
+    },
+    "armour": {
+        "hat": [
+            {
+                "name": "farmer-brim",
+                "localized_name": {
+                    "en": "Farmer Brim"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 0,
+                    "def": 2
+                },
+                "bonus": {}
+            },
+            {
+                "name": "yellow-headband",
+                "localized_name": {
+                    "en": "Yellow Headband"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 2,
+                    "wis": 3,
+                    "luk": 8,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "royal-turban",
+                "localized_name": {
+                    "en": "Royal Turban"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 2,
+                    "wis": 10,
+                    "luk": 15,
+                    "def": 0
+                },
+                "bonus": "Weaponpower: +1"
+            },
+            {
+                "name": "pink-headband",
+                "localized_name": {
+                    "en": "Pink Headband"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 4,
+                    "agi": 4,
+                    "wis": 4,
+                    "luk": 4,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "green-headband",
+                "localized_name": {
+                    "en": "Green Headband"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 2,
+                    "agi": 4,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "purple-tupacband",
+                "localized_name": {
+                    "en": "Purple Tupacband"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 2,
+                    "wis": 5,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "red-headband",
+                "localized_name": {
+                    "en": "Red Headband"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 2,
+                    "agi": 1,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "white-headband",
+                "localized_name": {
+                    "en": "White Headband"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "baseball-hat",
+                "localized_name": {
+                    "en": "Baseball Hat"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "grey-beret",
+                "localized_name": {
+                    "en": "Grey Beret"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 1,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "propeller-cap",
+                "localized_name": {
+                    "en": "Propeller Cap"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 1,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "traffic-cone",
+                "localized_name": {
+                    "en": "Traffic Cone"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "farmer-brimer",
+                "localized_name": {
+                    "en": "Farmer Brimer"
+                },
+                "class": "all",
+                "lvl": 3,
+                "stats": {
+                    "str": 0,
+                    "agi": 4,
+                    "wis": 2,
+                    "luk": 0,
+                    "def": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "cowbo-galloneer",
+                "localized_name": {
+                    "en": "Cowbo Galloneer"
+                },
+                "class": "all",
+                "lvl": 3,
+                "stats": {
+                    "str": 4,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 8
+                },
+                "bonus": "+25 Base Damage"
+            },
+            {
+                "name": "grandma-disguise",
+                "localized_name": {
+                    "en": "Grandma Disguise"
+                },
+                "class": "all",
+                "lvl": 3,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 15,
+                    "luk": 0,
+                    "def": 5
+                },
+                "bonus": "7% XP from Monsters"
+            },
+            {
+                "name": "stump-prop",
+                "localized_name": {
+                    "en": "Stump Prop"
+                },
+                "class": "all",
+                "lvl": 4,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 4,
+                    "def": 2
+                },
+                "bonus": "5% Choppin Effic."
+            },
+            {
+                "name": "farmer-brimest",
+                "localized_name": {
+                    "en": "Farmer Brimest"
+                },
+                "class": "all",
+                "lvl": 5,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 3,
+                    "def": 6
+                },
+                "bonus": {}
+            },
+            {
+                "name": "leather-cap",
+                "localized_name": {
+                    "en": "Leather Cap"
+                },
+                "class": "all",
+                "lvl": 6,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 0,
+                    "def": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "copper-helmet",
+                "localized_name": {
+                    "en": "Copper Helmet"
+                },
+                "class": "all",
+                "lvl": 8,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 0,
+                    "def": 5
+                },
+                "bonus": {}
+            },
+            {
+                "name": "bored-beanie",
+                "localized_name": {
+                    "en": "Bored Beanie"
+                },
+                "class": "all",
+                "lvl": 8,
+                "stats": {
+                    "str": 0,
+                    "agi": 7,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 5
+                },
+                "bonus": {}
+            },
+            {
+                "name": "militia-helm",
+                "localized_name": {
+                    "en": "Militia Helm"
+                },
+                "class": "warrior",
+                "lvl": 10,
+                "stats": {
+                    "str": 7,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 11
+                },
+                "bonus": {}
+            },
+            {
+                "name": "top-hat",
+                "localized_name": {
+                    "en": "Top Hat"
+                },
+                "class": "mage",
+                "lvl": 10,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 8,
+                    "luk": 1,
+                    "def": 7
+                },
+                "bonus": {}
+            },
+            {
+                "name": "thief-hood",
+                "localized_name": {
+                    "en": "Thief Hood"
+                },
+                "class": "archer",
+                "lvl": 10,
+                "stats": {
+                    "str": 3,
+                    "agi": 6,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 9
+                },
+                "bonus": {}
+            },
+            {
+                "name": "party-hat",
+                "localized_name": {
+                    "en": "Party Hat"
+                },
+                "class": "beginner",
+                "lvl": 10,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 10
+                },
+                "bonus": "+5% XP from Monsters"
+            },
+            {
+                "name": "alien-headband",
+                "localized_name": {
+                    "en": "Alien Headband"
+                },
+                "class": "all",
+                "lvl": 13,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 11,
+                    "luk": 0,
+                    "def": 4
+                },
+                "bonus": "10% Mana Regen"
+            },
+            {
+                "name": "trojan-helmet",
+                "localized_name": {
+                    "en": "Trojan Helmet"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "slime-cap",
+                "localized_name": {
+                    "en": "Slime Cap"
+                },
+                "class": "beginner",
+                "lvl": 15,
+                "stats": {
+                    "str": 0,
+                    "agi": 4,
+                    "wis": 0,
+                    "luk": 2,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "viking-cap",
+                "localized_name": {
+                    "en": "Viking Cap"
+                },
+                "class": "warrior",
+                "lvl": 15,
+                "stats": {
+                    "str": 1,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "iron-helmet",
+                "localized_name": {
+                    "en": "Iron Helmet"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 5,
+                    "agi": 5,
+                    "wis": 5,
+                    "luk": 0,
+                    "def": 8
+                },
+                "bonus": {}
+            },
+            {
+                "name": "demon-horns",
+                "localized_name": {
+                    "en": "Demon Horns"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "witch-hat",
+                "localized_name": {
+                    "en": "Witch Hat"
+                },
+                "class": "mage",
+                "lvl": 18,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 10,
+                    "luk": 1,
+                    "def": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gold-helmet",
+                "localized_name": {
+                    "en": "Gold Helmet"
+                },
+                "class": "all",
+                "lvl": 25,
+                "stats": {
+                    "str": 7,
+                    "agi": 7,
+                    "wis": 7,
+                    "luk": 0,
+                    "def": 13
+                },
+                "bonus": "+3% Defence"
+            },
+            {
+                "name": "amarok-helmet",
+                "localized_name": {
+                    "en": "Amarok Helmet"
+                },
+                "class": "all",
+                "lvl": 30,
+                "stats": {
+                    "str": 10,
+                    "agi": 10,
+                    "wis": 10,
+                    "luk": 10,
+                    "def": 20
+                },
+                "bonus": {}
+            },
+            {
+                "name": "paper-boat",
+                "localized_name": {
+                    "en": "Paper Boat"
+                },
+                "class": "all",
+                "lvl": 30,
+                "stats": {
+                    "str": 4,
+                    "agi": 0,
+                    "wis": 10,
+                    "luk": 0,
+                    "def": 12
+                },
+                "bonus": "+5% Fishing Effic."
+            },
+            {
+                "name": "ice-cream sunday",
+                "localized_name": {
+                    "en": "Ice Cream Sunday"
+                },
+                "class": "beginner",
+                "lvl": 30,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 6,
+                    "luk": 0,
+                    "def": 5
+                },
+                "bonus": "10% gold food effect"
+            },
+            {
+                "name": "platinum-helmet",
+                "localized_name": {
+                    "en": "Platinum Helmet"
+                },
+                "class": "all",
+                "lvl": 40,
+                "stats": {
+                    "str": 9,
+                    "agi": 9,
+                    "wis": 9,
+                    "luk": 0,
+                    "def": 18
+                },
+                "bonus": "+5% Defence"
+            }
+        ],
+        "shirt": [
+            {
+                "name": "spore-tee",
+                "localized_name": {
+                    "en": "Spore Tee"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 3
+                },
+                "bonus": {}
+            },
+            {
+                "name": "black-tee",
+                "localized_name": {
+                    "en": "Black Tee"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 3
+                },
+                "bonus": {}
+            },
+            {
+                "name": "orange-tee",
+                "localized_name": {
+                    "en": "Orange Tee"
+                },
+                "class": "all",
+                "lvl": 2,
+                "stats": {
+                    "str": 2,
+                    "agi": 1,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 3
+                },
+                "bonus": {}
+            },
+            {
+                "name": "blue-tee",
+                "localized_name": {
+                    "en": "Blue Tee"
+                },
+                "class": "all",
+                "lvl": 4,
+                "stats": {
+                    "str": 0,
+                    "agi": 1,
+                    "wis": 2,
+                    "luk": 0,
+                    "def": 3
+                },
+                "bonus": {}
+            },
+            {
+                "name": "copper-platebody",
+                "localized_name": {
+                    "en": "Copper Platebody"
+                },
+                "class": "all",
+                "lvl": 8,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 0,
+                    "def": 7
+                },
+                "bonus": {}
+            },
+            {
+                "name": "planktop",
+                "localized_name": {
+                    "en": "Planktop"
+                },
+                "class": "all",
+                "lvl": 10,
+                "stats": {
+                    "str": 6,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "dementia-body",
+                "localized_name": {
+                    "en": "Dementia Body"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 8,
+                    "agi": 8,
+                    "wis": 8,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "iron-platebody",
+                "localized_name": {
+                    "en": "Iron Platebody"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 0,
+                    "def": 12
+                },
+                "bonus": {}
+            },
+            {
+                "name": "fur-shirt",
+                "localized_name": {
+                    "en": "Fur Shirt"
+                },
+                "class": "archer",
+                "lvl": 15,
+                "stats": {
+                    "str": 5,
+                    "agi": 9,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 13
+                },
+                "bonus": {}
+            },
+            {
+                "name": "tanned-hide",
+                "localized_name": {
+                    "en": "Tanned Hide"
+                },
+                "class": "archer",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "studded-hide",
+                "localized_name": {
+                    "en": "Studded Hide"
+                },
+                "class": "archer",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "paralax-chest",
+                "localized_name": {
+                    "en": "Paralax Chest"
+                },
+                "class": "warrior",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "molten-chest",
+                "localized_name": {
+                    "en": "Molten Chest"
+                },
+                "class": "warrior",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "tattered-cloth",
+                "localized_name": {
+                    "en": "Tattered Cloth"
+                },
+                "class": "archer",
+                "lvl": 18,
+                "stats": {
+                    "str": 5,
+                    "agi": 9,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 13
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gold-platebody",
+                "localized_name": {
+                    "en": "Gold Platebody"
+                },
+                "class": "all",
+                "lvl": 26,
+                "stats": {
+                    "str": 4,
+                    "agi": 4,
+                    "wis": 4,
+                    "luk": 0,
+                    "def": 15
+                },
+                "bonus": {}
+            },
+            {
+                "name": "amarok-bodyplate",
+                "localized_name": {
+                    "en": "Amarok Bodyplate"
+                },
+                "class": "all",
+                "lvl": 30,
+                "stats": {
+                    "str": 7,
+                    "agi": 7,
+                    "wis": 7,
+                    "luk": 7,
+                    "def": 25
+                },
+                "bonus": {}
+            },
+            {
+                "name": "platinum-platbody",
+                "localized_name": {
+                    "en": "Platinum Platbody"
+                },
+                "class": "all",
+                "lvl": 41,
+                "stats": {
+                    "str": 6,
+                    "agi": 6,
+                    "wis": 6,
+                    "luk": 0,
+                    "def": 20
+                },
+                "bonus": {}
+            }
+        ],
+        "pants": [
+            {
+                "name": "torn-jeans",
+                "localized_name": {
+                    "en": "Torn Jeans"
+                },
+                "class": "all",
+                "lvl": 4,
+                "stats": {
+                    "str": 0,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 2,
+                    "def": 4
+                },
+                "bonus": {}
+            },
+            {
+                "name": "give-up on life pants",
+                "localized_name": {
+                    "en": "Give Up On Life Pants"
+                },
+                "class": "all",
+                "lvl": 7,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 6,
+                    "luk": 0,
+                    "def": 3
+                },
+                "bonus": {}
+            },
+            {
+                "name": "copper-platelegs",
+                "localized_name": {
+                    "en": "Copper Platelegs"
+                },
+                "class": "all",
+                "lvl": 8,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 0,
+                    "def": 6
+                },
+                "bonus": {}
+            },
+            {
+                "name": "adams-leaf",
+                "localized_name": {
+                    "en": "Adam's Leaf"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 4,
+                    "agi": 0,
+                    "wis": 13,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "forensic-leggings",
+                "localized_name": {
+                    "en": "Forensic Leggings"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "ancient-leggings",
+                "localized_name": {
+                    "en": "Ancient Leggings"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "merchantile-pants",
+                "localized_name": {
+                    "en": "Merchantile Pants"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "yellow-belt ninja pants",
+                "localized_name": {
+                    "en": "Yellow Belt Ninja Pants"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gilded-pilates",
+                "localized_name": {
+                    "en": "Gilded Pilates"
+                },
+                "class": "warrior",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "dementia-shins",
+                "localized_name": {
+                    "en": "Dementia Shins"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 7,
+                    "agi": 7,
+                    "wis": 7,
+                    "luk": 0,
+                    "def": 25
+                },
+                "bonus": {}
+            },
+            {
+                "name": "iron-platelegs",
+                "localized_name": {
+                    "en": "Iron Platelegs"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 0,
+                    "def": 10
+                },
+                "bonus": {}
+            },
+            {
+                "name": "crystallax-shins",
+                "localized_name": {
+                    "en": "Crystallax Shins"
+                },
+                "class": "warrior",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "twisted-scales",
+                "localized_name": {
+                    "en": "Twisted Scales"
+                },
+                "class": "all",
+                "lvl": 18,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "bleached-designer wode patch pants",
+                "localized_name": {
+                    "en": "Bleached Designer Wode Patch Pants"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 7,
+                    "luk": 0,
+                    "def": 15
+                },
+                "bonus": "+5% Choppin Efficency"
+            },
+            {
+                "name": "gold-platelegs",
+                "localized_name": {
+                    "en": "Gold Platelegs"
+                },
+                "class": "all",
+                "lvl": 25,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 0,
+                    "def": 14
+                },
+                "bonus": {}
+            },
+            {
+                "name": "amarok-hinds",
+                "localized_name": {
+                    "en": "Amarok Hinds"
+                },
+                "class": "all",
+                "lvl": 30,
+                "stats": {
+                    "str": 6,
+                    "agi": 6,
+                    "wis": 6,
+                    "luk": 6,
+                    "def": 22
+                },
+                "bonus": {}
+            },
+            {
+                "name": "platinum-shins",
+                "localized_name": {
+                    "en": "Platinum Shins"
+                },
+                "class": "all",
+                "lvl": 40,
+                "stats": {
+                    "str": 5,
+                    "agi": 5,
+                    "wis": 5,
+                    "luk": 0,
+                    "def": 19
+                },
+                "bonus": {}
+            }
+        ],
+        "shoe": [
+            {
+                "name": "flip-flops",
+                "localized_name": {
+                    "en": "Flip Flops"
+                },
+                "class": "all",
+                "lvl": 4,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": "2% Movement Speed"
+            },
+            {
+                "name": "copper-boots",
+                "localized_name": {
+                    "en": "Copper Boots"
+                },
+                "class": "all",
+                "lvl": 8,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 2,
+                    "def": 2
+                },
+                "bonus": {}
+            },
+            {
+                "name": "goo-galoshes",
+                "localized_name": {
+                    "en": "Goo Galoshes"
+                },
+                "class": "all",
+                "lvl": 10,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 2,
+                    "def": 0
+                },
+                "bonus": "+5% Money"
+            },
+            {
+                "name": "flap-flops",
+                "localized_name": {
+                    "en": "Flap Flops"
+                },
+                "class": "all",
+                "lvl": 10,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": "3% Movement Speed"
+            },
+            {
+                "name": "iron-boots",
+                "localized_name": {
+                    "en": "Iron Boots"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 3,
+                    "def": 3
+                },
+                "bonus": "+5% Defence"
+            },
+            {
+                "name": "dementia-boots",
+                "localized_name": {
+                    "en": "Dementia Boots"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "hermes-boots",
+                "localized_name": {
+                    "en": "Hermes Boots"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "yeti-walkers",
+                "localized_name": {
+                    "en": "Yeti Walkers"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "gaia-shoes",
+                "localized_name": {
+                    "en": "Gaia Shoes"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 2,
+                    "agi": 6,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": "2% XP From Monsters"
+            },
+            {
+                "name": "gold-boots",
+                "localized_name": {
+                    "en": "Gold Boots"
+                },
+                "class": "all",
+                "lvl": 23,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 3,
+                    "def": 5
+                },
+                "bonus": {}
+            },
+            {
+                "name": "floop-flops",
+                "localized_name": {
+                    "en": "Floop Flops"
+                },
+                "class": "all",
+                "lvl": 25,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": "4% Movement Speed"
+            },
+            {
+                "name": "cauldrunners",
+                "localized_name": {
+                    "en": "Cauldrunners"
+                },
+                "class": "all",
+                "lvl": 30,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 9,
+                    "luk": 0,
+                    "def": 4
+                },
+                "bonus": "4% Brew Speed"
+            },
+            {
+                "name": "platinum-boots",
+                "localized_name": {
+                    "en": "Platinum Boots"
+                },
+                "class": "all",
+                "lvl": 38,
+                "stats": {
+                    "str": 4,
+                    "agi": 4,
+                    "wis": 4,
+                    "luk": 4,
+                    "def": 6
+                },
+                "bonus": {}
+            },
+            {
+                "name": "flux-flops",
+                "localized_name": {
+                    "en": "Flux Flops"
+                },
+                "class": "all",
+                "lvl": 50,
+                "stats": {
+                    "str": 5,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 8,
+                    "def": 40
+                },
+                "bonus": "5% Movement Speed"
+            }
+        ],
+        "hat_premium": [
+            {
+                "name": "bandit-bob mask",
+                "localized_name": {
+                    "en": "Bandit Bob Mask"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "diamon-horns",
+                "localized_name": {
+                    "en": "Diamon Horns"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "halloween-pumpkin",
+                "localized_name": {
+                    "en": "Halloween Pumpkin"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "hotdog-hero",
+                "localized_name": {
+                    "en": "Hotdog Hero"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "invisible-hat",
+                "localized_name": {
+                    "en": "Invisible Hat"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "paper-bag",
+                "localized_name": {
+                    "en": "Paper Bag"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "parasite",
+                "localized_name": {
+                    "en": "Parasite"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "pardoned-turkey",
+                "localized_name": {
+                    "en": "Pardoned Turkey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "smittys-bubble blowing hat",
+                "localized_name": {
+                    "en": "Smitty's Bubble Blowing Hat"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            }
+        ]
+    },
+    "jewelry": {
+        "pendant": [
+            {
+                "name": "little-wooden katana",
+                "localized_name": {
+                    "en": "Little Wooden Katana"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 2,
+                    "agi": 1,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "sleek-shank",
+                "localized_name": {
+                    "en": "Sleek Shank"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 4
+                },
+                "bonus": "Weapon Power +1"
+            },
+            {
+                "name": "mint-icey",
+                "localized_name": {
+                    "en": "Mint Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": "1% XP From Monsters"
+            },
+            {
+                "name": "strawbu-icey",
+                "localized_name": {
+                    "en": "Strawbu Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": "2% XP From Monsters"
+            },
+            {
+                "name": "rok-road icey",
+                "localized_name": {
+                    "en": "Rok Road Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 2,
+                    "def": 0
+                },
+                "bonus": "3% XP From Monsters"
+            },
+            {
+                "name": "rainbo-icey",
+                "localized_name": {
+                    "en": "Rainbo Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 2,
+                    "def": 0
+                },
+                "bonus": "4% XP From Monsters"
+            },
+            {
+                "name": "chocotastic-icey",
+                "localized_name": {
+                    "en": "Chocotastic Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": "5% XP From Monsters"
+            },
+            {
+                "name": "blubbery-icey",
+                "localized_name": {
+                    "en": "Blubbery Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": "6% XP From Monsters"
+            },
+            {
+                "name": "lava-icey",
+                "localized_name": {
+                    "en": "Lava Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 4,
+                    "agi": 4,
+                    "wis": 4,
+                    "luk": 4,
+                    "def": 0
+                },
+                "bonus": "8% XP From Monsters"
+            },
+            {
+                "name": "legends-icey",
+                "localized_name": {
+                    "en": "Legends Icey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 5,
+                    "agi": 5,
+                    "wis": 5,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "10% XP From Monsters"
+            },
+            {
+                "name": "carrot-horror",
+                "localized_name": {
+                    "en": "Carrot Horror"
+                },
+                "class": "all",
+                "lvl": 14,
+                "stats": {
+                    "str": 0,
+                    "agi": 3,
+                    "wis": 8,
+                    "luk": 2,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "tarantulight",
+                "localized_name": {
+                    "en": "Tarantulight"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "0"
+            },
+            {
+                "name": "quartz-pendant",
+                "localized_name": {
+                    "en": "Quartz Pendant"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "fuscismatia",
+                "localized_name": {
+                    "en": "Fuscismatia"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "lucky-fish head",
+                "localized_name": {
+                    "en": "Lucky Fish Head"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "strung-bludgeon",
+                "localized_name": {
+                    "en": "Strung Bludgeon"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            }
+        ],
+        "ring": [
+            {
+                "name": "copper-band",
+                "localized_name": {
+                    "en": "Copper Band"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "pugilist-demise",
+                "localized_name": {
+                    "en": "Pugilist Demise"
+                },
+                "class": "all",
+                "lvl": 9,
+                "stats": {
+                    "str": 3,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": "Boss Damage: +3%Weaponpower: +1"
+            },
+            {
+                "name": "the-used bandaid",
+                "localized_name": {
+                    "en": "The Used Bandaid"
+                },
+                "class": "all",
+                "lvl": 9,
+                "stats": {
+                    "str": 6,
+                    "agi": 4,
+                    "wis": 0,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": "0% Boss Damage?"
+            },
+            {
+                "name": "spikeweed-ring",
+                "localized_name": {
+                    "en": "Spikeweed Ring"
+                },
+                "class": "all",
+                "lvl": 9,
+                "stats": {
+                    "str": 6,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "pugilists-demise",
+                "localized_name": {
+                    "en": "Pugilists Demise"
+                },
+                "class": "all",
+                "lvl": 12,
+                "stats": {
+                    "str": 6,
+                    "agi": 2,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": "0% Boss Damage?"
+            },
+            {
+                "name": "gold-ring",
+                "localized_name": {
+                    "en": "Gold Ring"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "steel-band",
+                "localized_name": {
+                    "en": "Steel Band"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "molden-crust",
+                "localized_name": {
+                    "en": "Molden Crust"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "toxic-bubbles band",
+                "localized_name": {
+                    "en": "Toxic Bubbles Band"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "death-wish",
+                "localized_name": {
+                    "en": "Death Wish"
+                },
+                "class": "all",
+                "lvl": 15,
+                "stats": {
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 0,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "silver-stopwatch",
+                "localized_name": {
+                    "en": "Silver Stopwatch"
+                },
+                "class": "all",
+                "lvl": 17,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": "+2% Fight AFK Gain"
+            },
+            {
+                "name": "defenders-dignity",
+                "localized_name": {
+                    "en": "Defenders Dignity"
+                },
+                "class": "all",
+                "lvl": 20,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 1,
+                    "def": 10
+                },
+                "bonus": {}
+            },
+            {
+                "name": "frisbee-ring",
+                "localized_name": {
+                    "en": "Frisbee Ring"
+                },
+                "class": "all",
+                "lvl": 40,
+                "stats": {
+                    "str": 16,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 3
+                },
+                "bonus": "+20 Accuracy"
+            }
+        ],
+        "ring_premium": [
+            {
+                "name": "bob-ring",
+                "localized_name": {
+                    "en": "Bob Ring"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "Weapon Power +1, +808% Bob"
+            },
+            {
+                "name": "bubble-ring",
+                "localized_name": {
+                    "en": "Bubble Ring"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "Weapon Power +1"
+            },
+            {
+                "name": "cthulu",
+                "localized_name": {
+                    "en": "Cthulu"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "Weapon power +1, +666% pure evilWeaponpower: +1"
+            },
+            {
+                "name": "leafy-ring",
+                "localized_name": {
+                    "en": "Leafy Ring"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "Weapon Power +1\n\n+100% All Natural\n"
+            },
+            {
+                "name": "love-ring",
+                "localized_name": {
+                    "en": "Love Ring"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "Weapon Power +1, +69% Love"
+            },
+            {
+                "name": "wealth-ring",
+                "localized_name": {
+                    "en": "Wealth Ring"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 7,
+                    "def": 0
+                },
+                "bonus": "Weapon Power +1, +777% Coolness"
+            }
+        ]
+    }
+}

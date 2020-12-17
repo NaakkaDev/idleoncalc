@@ -1,0 +1,50 @@
+{
+    "the-buff-guy": {
+        "stats": {
+            "str": 3
+        },
+        "bonus": {
+            "total_damage": 0.01
+        },
+        "name": "the-buff-guy",
+        "localized_name": {
+            "en": "The Buff Guy"
+        }
+    },
+    "flexo-bendo": {
+        "stats": {
+            "agi": 3
+        },
+        "bonus": {
+            "movement_speed": 0.02
+        },
+        "name": "flexo-bendo",
+        "localized_name": {
+            "en": "Flexo Bendo"
+        }
+    },
+    "the-book-worm": {
+        "stats": {
+            "wis": 3
+        },
+        "bonus": {
+            "main_exp_gain": 0.01
+        },
+        "name": "the-book-worm",
+        "localized_name": {
+            "en": "The Book Worm"
+        }
+    },
+    "the-fuzzy-dice": {
+        "stats": {
+            "luk": 2
+        },
+        "bonus": {
+            "talent_points": 3
+        },
+        "name": "the-fuzzy-dice",
+        "localized_name": {
+            "en": "The Fuzzy Dice"
+        }
+    }
+}
