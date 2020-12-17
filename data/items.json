@@ -327,7 +327,7 @@
                 "bonus": {}
             },
             {
-                "name": "annihilator-of the yggdrasil",
+                "name": "annihilator-of-the-yggdrasil",
                 "localized_name": {
                     "en": "Annihilator of the Yggdrasil"
                 },
@@ -346,7 +346,7 @@
         ],
         "fishing": [
             {
-                "name": "copper-fish rod",
+                "name": "copper-fish-rod",
                 "localized_name": {
                     "en": "Copper Fish Rod"
                 },
@@ -363,7 +363,7 @@
                 "bonus": {}
             },
             {
-                "name": "iron-fishing rod",
+                "name": "iron-fishing-rod",
                 "localized_name": {
                     "en": "Iron Fishing Rod"
                 },
@@ -380,7 +380,7 @@
                 "bonus": {}
             },
             {
-                "name": "wood-fishing rod",
+                "name": "wood-fishing-rod",
                 "localized_name": {
                     "en": "Wood Fishing Rod"
                 },
@@ -397,7 +397,7 @@
                 "bonus": {}
             },
             {
-                "name": "gold-fishing rod",
+                "name": "gold-fishing-rod",
                 "localized_name": {
                     "en": "Gold Fishing Rod"
                 },
@@ -414,7 +414,7 @@
                 "bonus": {}
             },
             {
-                "name": "plat-fishing rod",
+                "name": "plat-fishing-rod",
                 "localized_name": {
                     "en": "Plat Fishing Rod"
                 },
@@ -433,7 +433,7 @@
         ],
         "catching": [
             {
-                "name": "copper-netted net",
+                "name": "copper-netted-net",
                 "localized_name": {
                     "en": "Copper Netted Net"
                 },
@@ -1562,7 +1562,7 @@
                 "bonus": "+5% Fishing Effic."
             },
             {
-                "name": "ice-cream sunday",
+                "name": "ice-cream-sunday",
                 "localized_name": {
                     "en": "Ice Cream Sunday"
                 },
@@ -1886,7 +1886,7 @@
                 "bonus": {}
             },
             {
-                "name": "give-up on life pants",
+                "name": "give-up on life-pants",
                 "localized_name": {
                     "en": "Give Up On Life Pants"
                 },
@@ -1982,7 +1982,7 @@
                 "bonus": {}
             },
             {
-                "name": "yellow-belt ninja pants",
+                "name": "yellow-belt-ninja-pants",
                 "localized_name": {
                     "en": "Yellow Belt Ninja Pants"
                 },
@@ -2078,7 +2078,7 @@
                 "bonus": {}
             },
             {
-                "name": "bleached-designer wode patch pants",
+                "name": "bleached-designer-wode-patch-pants",
                 "localized_name": {
                     "en": "Bleached Designer Wode Patch Pants"
                 },
@@ -2808,9 +2808,9 @@
                 "bonus": "Boss Damage: +3%Weaponpower: +1"
             },
             {
-                "name": "the-used bandaid",
+                "name": "the-used-bandaid",
                 "localized_name": {
-                    "en": "The Used Bandaid"
+                    "en": "The Used-Bandaid"
                 },
                 "class": "all",
                 "lvl": 9,
@@ -2904,9 +2904,9 @@
                 "bonus": {}
             },
             {
-                "name": "toxic-bubbles band",
+                "name": "toxic-bubbles-band",
                 "localized_name": {
-                    "en": "Toxic Bubbles Band"
+                    "en": "Toxic Bubbles-Band"
                 },
                 "class": "all",
                 "lvl": 15,
