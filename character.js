@@ -146,7 +146,11 @@ class Character {
             // Gear stat talent bonuses
             for (let i in this.talents) {
                 if (this.okT(this.talents[i]) && Object.keys(this.talents[i].bonus)[0] === stat + '_gear_p') {
-                    statsFromPaperdoll[stat] += statsFromPaperdoll[stat] * (this.talents[i].bonus[stat + '_gear_p'] * this.talents[i].input)
+                    if (this.talents[i].no_math) {
+                        statsFromPaperdoll[stat] += statsFromPaperdoll[stat] * this.talents[i].input
+                    } else {
+                        statsFromPaperdoll[stat] += statsFromPaperdoll[stat] * (this.talents[i].bonus[stat + '_gear_p'] * this.talents[i].input)
+                    }
                 }
             }
 

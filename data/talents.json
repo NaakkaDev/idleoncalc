@@ -294,7 +294,10 @@
                 "en": "Stress Tested Garb"
             },
             "class": "warrior",
-            "bonus": {}
+            "bonus": {
+                "str_gear_p": -1
+            },
+            "nomath": true
         },
         "carry-a-big-stick": {
             "name": "carry-a-big-stick",

@@ -339,12 +339,12 @@ let renderTalent = (talentContainer, talent, talentId, arrName) => {
     input.setAttribute('data-id', talentId)
     input.name = talent.name
     input.type = 'number'
-    input.step = '0.01'
     input.min = '0'
     input.value = (talent.name in character.talents) ? character.talents[talent.name] : 0
 
     infoLevel.appendChild(input)
     if (talent.no_math) {
+        input.step = '0.01'
         infoLevel.appendChild(document.createTextNode('%'))
     }
 
