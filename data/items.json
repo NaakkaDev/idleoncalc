@@ -2367,152 +2367,6 @@
                 },
                 "bonus": "5% Movement Speed"
             }
-        ],
-        "hat_premium": [
-            {
-                "name": "bandit-bob mask",
-                "localized_name": {
-                    "en": "Bandit Bob Mask"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "diamon-horns",
-                "localized_name": {
-                    "en": "Diamon Horns"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "halloween-pumpkin",
-                "localized_name": {
-                    "en": "Halloween Pumpkin"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "hotdog-hero",
-                "localized_name": {
-                    "en": "Hotdog Hero"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "invisible-hat",
-                "localized_name": {
-                    "en": "Invisible Hat"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "paper-bag",
-                "localized_name": {
-                    "en": "Paper Bag"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "parasite",
-                "localized_name": {
-                    "en": "Parasite"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "pardoned-turkey",
-                "localized_name": {
-                    "en": "Pardoned Turkey"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            },
-            {
-                "name": "smittys-bubble blowing hat",
-                "localized_name": {
-                    "en": "Smitty's Bubble Blowing Hat"
-                },
-                "class": "all",
-                "lvl": 1,
-                "stats": {
-                    "str": 1,
-                    "agi": 1,
-                    "wis": 1,
-                    "luk": 1,
-                    "def": 0
-                },
-                "bonus": {}
-            }
         ]
     },
     "jewelry": {
@@ -2983,6 +2837,154 @@
                 },
                 "bonus": "+20 Accuracy"
             }
+        ]
+    },
+    "premium": {
+        "hat_premium": [
+            {
+                "name": "bandit-bob-mask",
+                "localized_name": {
+                    "en": "Bandit Bob Mask"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "diamon-horns",
+                "localized_name": {
+                    "en": "Diamon Horns"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "halloween-pumpkin",
+                "localized_name": {
+                    "en": "Halloween Pumpkin"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "hotdog-hero",
+                "localized_name": {
+                    "en": "Hotdog Hero"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "invisible-hat",
+                "localized_name": {
+                    "en": "Invisible Hat"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "paper-bag",
+                "localized_name": {
+                    "en": "Paper Bag"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "parasite",
+                "localized_name": {
+                    "en": "Parasite"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "pardoned-turkey",
+                "localized_name": {
+                    "en": "Pardoned Turkey"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "smittys-bubble-blowing-hat",
+                "localized_name": {
+                    "en": "Smitty's Bubble Blowing Hat"
+                },
+                "class": "all",
+                "lvl": 1,
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "wis": 1,
+                    "luk": 1,
+                    "def": 0
+                },
+                "bonus": {}
+            }
         ],
         "ring_premium": [
             {
@@ -3080,6 +3082,128 @@
                     "def": 0
                 },
                 "bonus": "Weapon Power +1, +777% Coolness"
+            }
+        ],
+        "trophy": [
+            {
+                "name": "og-gamer",
+                "localized_name": {
+                    "en": "OG Gamer"
+                },
+                "stats": {
+                    "wp": 0,
+                    "str": 2,
+                    "agi": 2,
+                    "wis": 2,
+                    "luk": 2,
+                    "def": 0
+                },
+                "bonus": "+2% XP from monsters"
+            },
+            {
+                "name": "lucky-lad",
+                "localized_name": {
+                    "en": "Lucky Lad"
+                },
+                "stats": {
+                    "wp": 0,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 7,
+                    "def": 0
+                },
+                "bonus": "+7% Item Drop Chance"
+            },
+            {
+                "name": "club-member",
+                "localized_name": {
+                    "en": "Club Member"
+                },
+                "stats": {
+                    "wp": 0,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 12,
+                    "def": 5
+                },
+                "bonus": "+4% EXP from Monsters"
+            },
+            {
+                "name": "job-well-done",
+                "localized_name": {
+                    "en": "Job Well Done"
+                },
+                "stats": {
+                    "wp": 1,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 0,
+                    "def": 0
+                },
+                "bonus": {}
+            },
+            {
+                "name": "dice-dynamo",
+                "localized_name": {
+                    "en": "Dice Dynamo"
+                },
+                "stats": {
+                    "wp": 1,
+                    "str": 0,
+                    "agi": 0,
+                    "wis": 0,
+                    "luk": 5,
+                    "def": 0
+                },
+                "bonus": "+2% luck"
+            },
+            {
+                "name": "blunder-hero",
+                "localized_name": {
+                    "en": "Blunder Hero"
+                },
+                "stats": {
+                    "wp": 1,
+                    "str": 5,
+                    "agi": 5,
+                    "wis": 5,
+                    "luk": 5,
+                    "def": 10
+                },
+                "bonus": "+10% HP"
+            },
+            {
+                "name": "trailblazer",
+                "localized_name": {
+                    "en": "Trailblazer"
+                },
+                "stats": {
+                    "wp": 4,
+                    "str": 3,
+                    "agi": 3,
+                    "wis": 3,
+                    "luk": 3,
+                    "def": 0
+                },
+                "bonus": "+20% XP from Monsters"
+            },
+            {
+                "name": "king-of-food",
+                "localized_name": {
+                    "en": "King of Food"
+                },
+                "stats": {
+                    "wp": 8,
+                    "str": 12,
+                    "agi": 12,
+                    "wis": 12,
+                    "luk": 12,
+                    "def": 25
+                },
+                "bonus": "+25% Food Item Effects"
             }
         ]
     }

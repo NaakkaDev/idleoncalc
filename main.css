@@ -64,6 +64,10 @@ body {
 #pSlot_11_stats { grid-area: 6 / 2 / 7 / 2; }
 #pSlot_12_stats { grid-area: 6 / 3 / 7 / 3; }
 
+#pSlot_13_stats { grid-area: 7 / 3 / 8 / 3; }
+#pSlot_14_stats { grid-area: 7 / 2 / 8 / 2; }
+#pSlot_15_stats { grid-area: 8 / 2 / 9 / 3; }
+
 .paperdoll__stats {
   width: 192px;
   min-height: 146px;
@@ -90,7 +94,7 @@ body {
 .paperdoll {
   display: grid;
   grid-template-columns: repeat(2, 50px);
-  grid-template-rows: repeat(6, 50px);
+  grid-template-rows: repeat(8, 50px);
   grid-gap: 5px;
 
   position: relative;
@@ -101,7 +105,7 @@ body {
 @media (min-width: 638px) {
   .paperdoll {
     width: 105px;
-    height: 325px;
+    height: 490px;
   }
   .paperdoll-container {
     display: grid;
@@ -123,6 +127,9 @@ body {
   #pSlot_10_stats { grid-area: 1 / 5 / 2 / 5; }
   #pSlot_11_stats { grid-area: 2 / 4 / 3 / 6; }
   #pSlot_12_stats { grid-area: 2 / 5 / 3 / 6; }
+  #pSlot_13_stats { grid-area: unset; }
+  #pSlot_14_stats { grid-area: unset; }
+  #pSlot_15_stats { grid-area: unset; }
 }
 
 #pSlot_1 { grid-area: 1 / 1 / 2 / 2; }
@@ -141,8 +148,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  padding-top: 28px;
   position: relative;
+  height: 50px;
 }
 
 .paperdoll__slot:hover {
@@ -178,6 +185,10 @@ body {
 #pSlot_10 { background-image: url('images/chopping.png'); }
 #pSlot_11 { background-image: url('images/fishing.png'); }
 #pSlot_12 { background-image: url('images/catching.png'); }
+
+#pSlot_13 { background-image: url('images/premium_hat.png'); }
+#pSlot_14 { background-image: url('images/premium_ring.png'); }
+#pSlot_15 { background-image: url('images/trophy.png'); }
 
 .paperdoll__search {
   display: none;

@@ -384,15 +384,31 @@ let populateClassTalents = () => {
     }
 }
 
+let renderStarSignText = (elem) => {
+    let statText = Object.keys(character.starsign['stats'])[0].toUpperCase()
+    let statValue = character.starsign['stats'][Object.keys(character.starsign['stats'])[0]]
+    let bonusText = Object.keys(character.starsign['bonus'])[0].replaceAll('_', ' ')
+    let bonusValue = character.starsign['bonus'][Object.keys(character.starsign['bonus'])[0]]
+    bonusValue = (bonusValue.toString().indexOf('.') > -1) ? (bonusValue * 100) + '%' : bonusValue
+
+    elem.textContent = ' +' + statValue + ' ' + statText + '  (' + bonusText + ': ' + bonusValue + ')'
+
+    return elem
+}
+
 let renderStarSigns = () => {
     let starSignSelectorContainer = document.getElementById('starSignSelectorContainer')
     let starSignSelector = document.createElement('select')
+    let starSignText = document.createElement('span')
+
     starSignSelector.id = "starSignSelector"
     for (let key in _starsigns) {
         // Set the first star sign as current one and update the totals
         if (character.starsign === undefined) {
             character.starsign = _starsigns[key]
             updateTotalStats()
+
+            starSignText = renderStarSignText(starSignText)
         }
 
         starSignSelector.options.add(
@@ -401,14 +417,17 @@ let renderStarSigns = () => {
                 key
             )
         )
-    }
+    }    
 
     starSignSelector.addEventListener('change', (e) => {
         character.starsign = _starsigns[e.target.value]
         updateTotalStats()
+
+        starSignText = renderStarSignText(starSignText)
     })
 
-    starSignSelectorContainer.appendChild(starSignSelector)   
+    starSignSelectorContainer.appendChild(starSignSelector)
+    starSignSelectorContainer.appendChild(starSignText)
 }
 
 let updateTotalStats = () => {
